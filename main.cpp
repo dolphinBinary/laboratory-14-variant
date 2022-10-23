@@ -39,7 +39,7 @@ int main(void)
 
         sum += numer / denom;
     };
-    cout << fixed << setprecision(10);
+    cout << fixed << setprecision(10); // кол-во знаков после запятой
 // 1.5554e-06 было так
 // 0.0000015554 стало так
     std::cout << "kol vo prosummir elem: " << N << "\n";
